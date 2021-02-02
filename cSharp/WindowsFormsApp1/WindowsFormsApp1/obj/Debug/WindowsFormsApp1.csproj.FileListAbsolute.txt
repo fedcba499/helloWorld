@@ -1,0 +1,12 @@
+E:\Github\helloWorld\cSharp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+E:\Github\helloWorld\cSharp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+E:\Github\helloWorld\cSharp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+E:\Github\helloWorld\cSharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+E:\Github\helloWorld\cSharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\Github\helloWorld\cSharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+E:\Github\helloWorld\cSharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\Github\helloWorld\cSharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\Github\helloWorld\cSharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+E:\Github\helloWorld\cSharp\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\Github\helloWorld\cSharp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Database.mdf
+E:\Github\helloWorld\cSharp\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Database_log.ldf

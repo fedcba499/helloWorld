@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Arduino Notes</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <p>Electronics Foundations: Fundamentals</p>
+    <p>Microcontroller</p>
+    <p> Can sense digital and analog signals</p>
+    <p>USB Port - power and uploading</p>
+    9-15 volts
+    volatage regulator
+    reset button
+    14 digital input and output pins
+    06 digital pulse width modulations marked on beside number
+    06 anlog input pins
+
+    3 bult in led
+    green led 
+    yellow -tx rx
+    flicker rapidly
+    yellow 
+
+    ATmega controller
+        AVR family of Microcontroller chips
+
+    Digital signal -0 and 1 (either 0 or 1)
+    0v -5v
+    led on or off
+    ardunio mega - 52
+    Pulse width modulations - running motor 3-5-6-9-10-11
+
+    Analog device (range of values from 0v to 5v)
+     - motor, temperature sensor, light sensor
+
+    continous range of values 
+    ex - temp - range of values
+    mega - 16  analog pins
+
+    analog to digital converter
+    10 bits
+    0-5 to 0 - 1023
+
+    power pins
+    vin = voltage pin
+
+    Main commands
+
+    pinMode(pin,mode)
+    mode - INPUT, INPUT_PULLUP, OUTPUT 
+    should be in setup
+
+    digitWrite(pin, value) - to send any data
+    value - HIGH, LOW
+
+    outside setup write variable(recommeded variables)
+    int LED = 13;
+
+    delay(); wait for some time in milliseconds
+
+    serial Monitor
+    handy for trouble sooting
+    tx/rx (0 and 1) serial and out 
+    bits/sec - gen 9600
+
+    initalize serial Monitor
+    Serial.begin(9600);
+    void loop - Serial.print("Blink - x")
+
+    LED allow current in one direction (anode to cathode)
+    anode +, cathode -,
+    longer is anode
+    cathode is smaller
+    Resistor - current limiting Resistor -330 ohms
+
+    ohms law
+    v = I x R
+    R = (Vsource - Vled) / I
+
+    Push Buttons
+    Momentary Switch
+        normally open - pressed to make connection
+        normally closed - pressed to brake connection
+    
+    Pullup cicuit Switch
+        Active high - sends 1 when active, Active Low- sends 0 when active
+        10 k ohm is example for pull down or pullup resistor
+        active high - pull down resistor
+        active low - pull up resistor
+
+    digitalRead(pin); - read from certain pin
+
+    INPUT_PULLUP - 
+    pinMode(pin, INPUT_PULLUP) - changes values 0 to 1
+    internal resistance to change active state
+
+    Next Steps
+        Learning Arduino - Interfacing with Hardware
+        Learning Arduino - Pulse width modulation
+
+    Pulse Width modulation
+        Digital Switch - either on or off
+        Analog Switch - Dimmer Switch 
+        Motor speed, direction of servo, Dimmer
+
+        constant - read-only, save memory
+        all caps for contstant
+        analogWrite(LED9, 255);
+        accepts 8bit values 0-255
+
+        duty cycle - 
+
+        Potentiometer - changes resister 
+        Photo electric sensor - photon reactive material
+        peizo electric sensor - 
+
+        Potentiometer
+            Baud Rate - 9600 bits per sec
+            analog input pins can be read as digital output pins
+
+        Float Variable - 
+
+    Multimeter
+        voltage and resistance
+        Diode Function - check LED
+        OHM function - resistance measure
+        DC Voltage - five ranges
+
+    Map Fuctions 
+        scale one scale of measurement to another
+        celsius to Farenheit
+        AnalogRead - 0 to 1023
+        analogWrite - 0 to 255
+        map(value, fromLow, fromHigh, toLow, toHigh)
+
+    constrain(value, lowConstraint, highConstarin)
+
+    Random function
+        map(min, max)
+
+    dc motors, servo, step up motor
+    dc motors - transistor, low power to high power signal
+    h bridge L293D 16 pin H bridge
+
+    servo
+    180 deg rotation
+    no speed controller
+    continous motor servo - 3 pin 
+    fun similar to dc motor
+
+    stepper motor
+    2 deg each move,
+    print head for printer
+
+    servo -basic hobby servo
+
+    Next Steps
+
+
+    LCD - text or graphics
+    HD44780 controller - Hitachi
+    library - liquidCrystal
+    lcd.begin(16,2); - define type of lcd
+    lcd.setCursor(0,0);
+    lcd.print("Hello World");
+    lcd.scrollDisplayLeft();
+
+    7 segment led
+        Shift Register
+        mc74HC595A
+
+    Keypad library - 
+
+
+
+
+</body>
+</html>
